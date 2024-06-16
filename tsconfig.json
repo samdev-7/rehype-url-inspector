@@ -18,15 +18,10 @@
     "strictPropertyInitialization": true,
     "stripInternal": true,
 
-    "typeRoots": [
-      "node_modules/@types",
-      "src/typings"
-    ]
+    "esModuleInterop": true,
+
+    "typeRoots": ["node_modules/@types", "src/typings"]
   },
-  "include": [
-    "src/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
 }
