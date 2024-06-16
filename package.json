@@ -1,7 +1,7 @@
 {
-  "name": "@jsdevtools/rehype-url-inspector",
-  "version": "2.0.2",
-  "description": "A rehype plugin to inspect, validate, or rewrite URLs anywhere in an HTML document",
+  "name": "@samdev-7/rehype-url-inspector",
+  "version": "2.0.3",
+  "description": "A rehype plugin to inspect, validate, or rewrite URLs anywhere in an HTML document, with url-regex-safe",
   "keywords": [
     "unified",
     "rehype",
@@ -15,15 +15,20 @@
     "404",
     "broken links"
   ],
-  "author": {
-    "name": "James Messinger",
-    "url": "https://jamesmessinger.com"
-  },
+  "contributors": [
+    {
+      "name": "James Messinger",
+      "url": "https://jamesmessinger.com"
+    },
+    {
+      "name": "Sam Liu",
+      "url": "https://samliu.dev"
+    }
+  ],
   "license": "MIT",
-  "homepage": "https://jstools.dev/rehype-url-inspector",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JS-DevTools/rehype-url-inspector.git"
+    "url": "https://github.com/samdev-7/rehype-url-inspector.git"
   },
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
