@@ -1,18 +1,9 @@
 Rehype URL Inspector
 ==============================
+
 ### A [rehype](https://github.com/rehypejs/rehype) plugin to inspect, validate, or rewrite URLs anywhere in an HTML document
 
-[![Cross-Platform Compatibility](https://jstools.dev/img/badges/os-badges.svg)](https://github.com/JS-DevTools/rehype-url-inspector/actions)
-[![Build Status](https://github.com/JS-DevTools/rehype-url-inspector/workflows/CI-CD/badge.svg)](https://github.com/JS-DevTools/rehype-url-inspector/actions)
-
-[![Coverage Status](https://coveralls.io/repos/github/JS-DevTools/rehype-url-inspector/badge.svg?branch=master)](https://coveralls.io/github/JS-DevTools/rehype-url-inspector)
-[![Dependencies](https://david-dm.org/JS-DevTools/rehype-url-inspector.svg)](https://david-dm.org/JS-DevTools/rehype-url-inspector)
-
-[![npm](https://img.shields.io/npm/v/@jsdevtools/rehype-url-inspector.svg)](https://www.npmjs.com/package/@jsdevtools/rehype-url-inspector)
-[![License](https://img.shields.io/npm/l/@jsdevtools/rehype-url-inspector.svg)](LICENSE)
-[![Buy us a tree](https://img.shields.io/badge/Treeware-%F0%9F%8C%B3-lightgreen)](https://plant.treeware.earth/JS-DevTools/rehype-url-inspector)
-
-
+> This is a fork of [@jsdevtools/rehype-url-inspector][] which resolves the upstream [CVE-2020-7661](https://nvd.nist.gov/vuln/detail/CVE-2020-7661) from [url-regex][] by using [url-regex-safe][]
 
 Features
 --------------------------
