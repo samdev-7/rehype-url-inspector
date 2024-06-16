@@ -3,7 +3,7 @@ Rehype URL Inspector
 
 ### A [rehype](https://github.com/rehypejs/rehype) plugin to inspect, validate, or rewrite URLs anywhere in an HTML document
 
-> This is a fork of [@jsdevtools/rehype-url-inspector][] which resolves the upstream [CVE-2020-7661](https://nvd.nist.gov/vuln/detail/CVE-2020-7661) from [url-regex][] by using [url-regex-safe][]
+> This is a fork of [@jsdevtools/rehype-url-inspector][https://github.com/JS-DevTools/rehype-url-inspector] which resolves the upstream [CVE-2020-7661](https://nvd.nist.gov/vuln/detail/CVE-2020-7661) from [url-regex][https://github.com/kevva/url-regex] by using [url-regex-safe][https://github.com/spamscanner/url-regex-safe]
 
 Features
 --------------------------

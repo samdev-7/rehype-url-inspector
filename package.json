@@ -1,6 +1,6 @@
 {
   "name": "@samdev-7/rehype-url-inspector",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "A rehype plugin to inspect, validate, or rewrite URLs anywhere in an HTML document, with url-regex-safe",
   "keywords": [
     "unified",
